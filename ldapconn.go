@@ -1,4 +1,4 @@
-package ldapcon
+package ldapconn
 
 import (
 	"crypto/tls"
