@@ -155,7 +155,7 @@ func CreateRequest(base string, filter string) *ldap.SearchRequest {
 		SizeLimit:    0,
 		TimeLimit:    0,
 		TypesOnly:    false,
-		Filter:       ldap.EscapeFilter(filter),
+		Filter:       filter,
 		Attributes:   []string{},
 		Controls:     nil,
 	}
